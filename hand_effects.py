@@ -1,3 +1,7 @@
+## Hi guys, this is a small project where I create some kinds of flame filter for hand gestures
+## All the source video is downloaded from Youtube
+## Pay attention to the directory path of source code cuz if theyr wrong, code is not gonna work
+
 import cv2 as cv
 import mediapipe as mp
 import time
@@ -79,7 +83,7 @@ def video_processing_2 (img , fire_resized):
 
 
 
-fire_video_1 = cv.VideoCapture("C:/Users/Lenovo/OneDrive/Documents/Python_code/effects/righthand.mp4")#C:\Users\Lenovo\OneDrive\Documents\Python_code\effects\righthand.mp4
+fire_video_1 = cv.VideoCapture("C:/Users/Lenovo/OneDrive/Documents/Python_code/effects/righthand.mp4")
 fire_video_2 = cv.VideoCapture("C:/Users/Lenovo/OneDrive/Documents/Python_code/effects/second_effect.mp4")
 fire_video = cv.VideoCapture("C:/Users/Lenovo/OneDrive/Documents/Python_code/effects/lefthand.mp4")
 
